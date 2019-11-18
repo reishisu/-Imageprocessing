@@ -5,7 +5,7 @@ from PIL import Image, ImageTk  # Pillowの画像とtkinterの画像の読み込
 image = Image.open('../images/cafe.jpg')
 
 # GUIウィンドウを作成
-window = tkinter.Tk(className="Question2")
+window = tkinter.Tk(className="pointer sample")
 
 # Pillowの画像をtkinter用の画像に変換する
 image_tk = ImageTk.PhotoImage(image)
